@@ -187,6 +187,24 @@ header {
   width: 132px;
   height: 60px;
 }
+.what-container {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  top: 228px;
+  left: 392px;
+  width: 856px;
+  height: 71px;
+  /* UI Properties */
+  text-align: center;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
 
 @media screen and (max-width: 1155px) {
   .textContainer {
@@ -250,6 +268,14 @@ header {
     opacity: 1;
     position: relative;
   }
+  h1 {
+    margin-top: 20px;
+    left: 58px;
+    width: 420px;
+    height: 50px;
+    font-size: 45px;
+    line-height: 1.2;
+  }
 }
 
 @media screen and (max-width: 394px) {
@@ -272,5 +298,14 @@ header {
     left: 238px;
     width: 97px;
     height: 46px;
+  }
+
+  h1 {
+    margin-top: 30px;
+    left: 58px;
+    width: 320px;
+    height: 50px;
+    font-size: 35px;
+    line-height: 1.2;
   }
 }
