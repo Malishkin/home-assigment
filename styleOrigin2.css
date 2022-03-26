@@ -814,19 +814,15 @@ h1 {
   color: #cda349;
 }
 
-
-
 .footer-container {
   width: 100%;
   /* height: 425px; */
   display: flex;
   flex-direction: row;
   /* flex-wrap: nowrap; */
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-evenly;
   background: #f2f2f2 0% 0% no-repeat padding-box;
-  padding: 50px;
-  padding-top: 20px;
 }
 
 .footer-item {
@@ -853,14 +849,13 @@ h1 {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 24px;
   text-align: left;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
   margin-top: 50px;
   height: 80px;
-  width: 130px;
 }
 
 .footer-text {
@@ -872,48 +867,51 @@ h1 {
   width: 350px;
 }
 
-@media (max-width: 1075px) {
+@media (max-width: 1125px) {
   .footer-container {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    align-items: center;
   }
   .img-and-title {
     display: flex;
     flex-direction: row;
     width: 300px;
-    align-items: center;
-    
   }
   .footer-title {
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
-    margin-top: 0px;
   }
   .footer-text {
     text-align: left;
-    width: 290px;
-    font-size: 15px;
+    width: 250px;
   }
 }
+
 .process-order-container {
   width: 100%;
   display: flex;
-  flex-flow: row nowrap;
   justify-content: center;
-  text-align: center;
-  
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
-.process-img {
-  width: 700px;
-  height: 269px;
+.process-border {
+border: 2px solid #F09C0A;
+border-radius: 12px;
+width: 450px;
+height: 120px;
+
+background: transparent linear-gradient(90deg, #F09C0A 0%, #F1A30E 5%, #F7B91B 24%, #FBC924 44%, #FDD22A 67%, #FED52C 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
 }
-
-
+.process-image{
+ 
+width: 200px;
+height: 200px;
+margin-top: -50px;
+margin-left: 300px;
+opacity: 1;
+}
 @media screen and (max-width: 1155px) {
   .textContainer {
     margin-left: 150px;
@@ -926,16 +924,13 @@ h1 {
   .prefer-container {
     display: none;
   }
-
-  .prefer-container-small{
-    display: flex;
+  .process-border{
+    width: 300px;
   }
 
-  .process-img {
-    width: 500px;
-    height: 192px;
+  .process-image{
+    margin-left: 180px;
   }
- 
 }
 @media screen and (max-width: 945px) {
   .grey-border-between {
@@ -1016,11 +1011,6 @@ h1 {
     font-size: 45px;
     line-height: 1.2;
   }
-
-  .process-img {
-    width: 340px;
-    height: 131px;
-  }
 }
 
 @media screen and (max-width: 394px) {
@@ -1067,5 +1057,3 @@ h1 {
     height: 69px;
   }
 }
-
-
